@@ -3,8 +3,8 @@ import { FcAddImage } from 'react-icons/fc'
 import { useDispatch } from 'react-redux';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 
-import HomeLayout from '../../layouts/HomeLayout'
-import { updateCourse } from '../../redux/slices/CourseSlice';
+import HomeLayout from '../../Layouts/HomeLayout'
+import { updateCourse } from '../../Redux/slices/CourseSlice';
 function EditCourse() {
     const dispatch = useDispatch();
     const navigate = useNavigate();
