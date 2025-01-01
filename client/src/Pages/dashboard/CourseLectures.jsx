@@ -6,7 +6,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import Switch from "react-switch";
 
 import Footer from '../../components/Footer'
-import { deleteLecture, getLectures } from "../../redux/slices/LectureSlice";
+import { deleteLecture, getLectures } from "../../Redux/slices/LectureSlice";
 
 function CourseLectures() {
     const navigate = useNavigate();
