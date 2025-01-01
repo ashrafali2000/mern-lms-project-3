@@ -3,9 +3,9 @@ import { FiEdit, FiTrash2 } from 'react-icons/fi'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
 
-import HomeLayout from '../../layouts/HomeLayout'
-import { deleteProfile, editProfile, getProfile } from '../../redux/slices/AuthSlice';
-import { cancelSubscription } from '../../redux/slices/RazorpaySlice';
+import HomeLayout from '../../Layouts/HomeLayout'
+import { deleteProfile, editProfile, getProfile } from '../../Redux/slices/AuthSlice';
+import { cancelSubscription } from '../../Redux/slices/RazorpaySlice';
 
 function Profile() {
     const dispatch = useDispatch();
