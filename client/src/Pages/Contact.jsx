@@ -3,7 +3,7 @@ import { toast } from 'react-toastify'
 
 import option2 from '../assets/json/option2.json'
 import Particle from '../components/Particle'
-import axiosInstance from '../helpers/AxiosInstance';
+import axiosInstance from '../Helpers/AxiosInstance';
 import HomeLayout from '../Layouts/HomeLayout'
 function Contact() {
 
