@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 import animationData from '../../lotties/payment-failed.json'
-import { getProfile } from '../../redux/slices/AuthSlice';
+import { getProfile } from '../../Redux/slices/AuthSlice';
 
 function CheckoutFail() {
     const dispatch = useDispatch();
