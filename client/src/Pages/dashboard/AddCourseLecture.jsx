@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 
-import { addLecture } from '../../redux/slices/LectureSlice';
+import { addLecture } from '../../Redux/slices/LectureSlice';
 
 function AddCourseLecture() {
     const dispatch = useDispatch();
