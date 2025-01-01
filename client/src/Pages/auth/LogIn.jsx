@@ -4,7 +4,7 @@ import { BsEnvelope, BsLock } from "react-icons/bs"
 import { useDispatch } from "react-redux"
 import { Link, useNavigate } from "react-router-dom"
 
-import option2 from '../../assets/Json/option2.json'
+import option2 from '../../assets/json/option2.json'
 import Particle from "../../components/Particle"
 import HomeLayout from "../../layouts/HomeLayout"
 import { forgotPassword, login } from "../../redux/slices/AuthSlice"
