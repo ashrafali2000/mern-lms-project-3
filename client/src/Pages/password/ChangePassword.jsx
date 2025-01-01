@@ -3,8 +3,8 @@ import { BsKey } from "react-icons/bs"
 import { useDispatch, useSelector } from "react-redux"
 import { toast } from "react-toastify";
 
-import HomeLayout from "../../layouts/HomeLayout"
-import { changePassword, logout } from "../../redux/slices/AuthSlice";
+import HomeLayout from "../../Layouts/HomeLayout"
+import { changePassword, logout } from "../../Redux/slices/AuthSlice";
 
 function ChangePassword() {
 
