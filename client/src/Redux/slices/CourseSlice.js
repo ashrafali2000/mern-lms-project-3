@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 import { toast } from 'react-toastify'
 
-import axiosInstance from '../../helpers/AxiosInstance'
+import axiosInstance from '../../Helpers/AxiosInstance'
 
 const initialState = {
     courseData: []
