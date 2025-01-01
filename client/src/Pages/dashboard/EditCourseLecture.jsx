@@ -4,7 +4,7 @@ import { RiVideoAddFill } from 'react-icons/ri';
 import { useDispatch } from 'react-redux';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 
-import { updateLecture } from '../../redux/slices/LectureSlice';
+import { updateLecture } from '../../Redux/slices/LectureSlice';
 
 function EditCourseLecture() {
     const dispatch = useDispatch();
