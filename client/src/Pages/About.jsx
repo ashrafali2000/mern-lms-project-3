@@ -2,7 +2,7 @@ import aboutMainImage from '../assets/Images/aboutMainImage.png'
 import option2 from '../assets/Json/option2.json'
 import Carousel from '../components/Carousel'
 import Particle from '../components/Particle'
-import HomeLayout from '../layouts/HomeLayout'
+import HomeLayout from '../Layouts/HomeLayout'
 function About() {
     return (
         <HomeLayout>
