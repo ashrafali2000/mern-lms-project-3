@@ -4,8 +4,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useLocation, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-import HomeLayout from '../../layouts/HomeLayout'
-import { getRazorpayKey, purchaseCourseBundle, verifyUserPayment } from '../../redux/slices/RazorpaySlice';
+import HomeLayout from '../../Layouts/HomeLayout'
+import { getRazorpayKey, purchaseCourseBundle, verifyUserPayment } from '../../Redux/slices/RazorpaySlice';
 
 
 function Checkout() {
