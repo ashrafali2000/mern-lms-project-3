@@ -7,7 +7,7 @@ import { Link, useNavigate } from "react-router-dom"
 import option2 from '../../assets/json/option2.json'
 import Particle from "../../components/Particle"
 import HomeLayout from "../../Layouts/HomeLayout"
-import { forgotPassword, login } from "../../redux/slices/AuthSlice"
+import { forgotPassword, login } from "../../Redux/slices/AuthSlice"
 function LogIn() {
     const dispatch = useDispatch();
     const navigate = useNavigate();
