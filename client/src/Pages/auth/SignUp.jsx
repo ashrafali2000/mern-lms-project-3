@@ -4,10 +4,10 @@ import { BsCloudUpload, BsEnvelope, BsLock, BsPerson } from 'react-icons/bs'
 import { useDispatch } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom'
 
-import option3 from '../../assets/Json/option3.json'
+import option3 from '../../assets/json/option3.json'
 import Particle from '../../components/Particle'
-import HomeLayout from '../../layouts/HomeLayout'
-import { signup } from '../../redux/slices/AuthSlice'
+import HomeLayout from '../../Layouts/HomeLayout'
+import { signup } from '../../Redux/slices/AuthSlice'
 function SignUp() {
 
     const dispatch = useDispatch();
