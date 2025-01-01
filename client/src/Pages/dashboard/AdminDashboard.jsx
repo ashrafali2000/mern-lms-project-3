@@ -8,10 +8,10 @@ import { GiMoneyStack } from 'react-icons/gi'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom';
 
-import HomeLayout from '../../layouts/HomeLayout'
-import { deleteCourse, getAllCourse } from '../../redux/slices/CourseSlice';
-import { getPaymentsRecord } from '../../redux/slices/RazorpaySlice';
-import { getStats } from '../../redux/slices/StatSlice';
+import HomeLayout from '../../Layouts/HomeLayout'
+import { deleteCourse, getAllCourse } from '../../Redux/slices/CourseSlice';
+import { getPaymentsRecord } from '../../Redux/slices/RazorpaySlice';
+import { getStats } from '../../Redux/slices/StatSlice';
 
 Chart.register(ArcElement, BarElement, CategoryScale, Legend, LinearScale, Title, Tooltip)
 function AdminDashboard() {
