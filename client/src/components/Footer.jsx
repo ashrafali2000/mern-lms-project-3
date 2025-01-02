@@ -12,7 +12,7 @@ function Footer() {
                 <section className='flex items-center justify-center gap-5 text-2xl text-slate-400'>
                     <Link to="https://www.facebook.com/sukomal.dutta.7" target='_blank' className='cursor-pointer hover:text-blue-500 transition-all ease-in-out duration-300'><BsFacebook /></Link>
                     <Link to='https://www.linkedin.com/in/duttasukomal' target='_blank' className='cursor-pointer hover:text-blue-500 transition-all ease-in-out duration-300'><BsLinkedin /></Link>
-                    <Link to='https://github.com/Sukomal07' target='_blank' className='cursor-pointer hover:text-blue-500 transition-all ease-in-out duration-300'><BsGithub /></Link>
+                    <Link to='https://github.com/ashrafali2000' target='_blank' className='cursor-pointer hover:text-blue-500 transition-all ease-in-out duration-300'><BsGithub /></Link>
                     <Link to='https://twitter.com/CryptoOrbiT6' target='_blank' className='cursor-pointer hover:text-blue-500 transition-all ease-in-out duration-300'><BsTwitter /></Link>
                 </section>
             </footer>
